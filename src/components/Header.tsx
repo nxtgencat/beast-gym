@@ -47,7 +47,7 @@ export default function Header({ activePage, onNavigate }: HeaderProps) {
             <button
               key={link.label}
               onClick={() => handleNavClick(link.page, link.href)}
-              className={`font-sans text-xs font-semibold tracking-widest transition cursor-pointer ${
+              className={`font-heading text-xs font-semibold tracking-widest uppercase transition cursor-pointer ${
                 link.page && activePage === link.page ? 'text-brand' : 'text-white hover:text-brand'
               }`}
             >
@@ -57,7 +57,7 @@ export default function Header({ activePage, onNavigate }: HeaderProps) {
         </nav>
 
         <div className="hidden lg:block shrink-0">
-          <a href="#" className="font-sans inline-block bg-brand text-white text-xs font-bold tracking-widest px-6 py-3.5 hover:bg-white hover:text-brand transition">
+          <a href="#" className="font-heading inline-block bg-brand text-white text-xs font-bold tracking-widest px-6 py-3.5 hover:bg-white hover:text-brand transition">
             JOIN NOW
           </a>
         </div>
@@ -85,14 +85,14 @@ export default function Header({ activePage, onNavigate }: HeaderProps) {
             <button
               key={link.label}
               onClick={() => handleNavClick(link.page, link.href)}
-              className={`font-sans text-left text-xs font-semibold tracking-widest cursor-pointer ${
+              className={`font-heading text-left text-xs font-semibold tracking-widest uppercase cursor-pointer ${
                 link.page && activePage === link.page ? 'text-brand' : 'text-white'
               }`}
             >
               {link.label}
             </button>
           ))}
-          <a href="#" className="font-sans bg-brand text-white text-xs font-bold tracking-widest px-6 py-3 text-center mt-2">
+          <a href="#" className="font-heading bg-brand text-white text-xs font-bold tracking-widest px-6 py-3 text-center mt-2">
             JOIN NOW
           </a>
         </div>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-family-sans: "Inter", sans-serif;
+  --font-family-sans: "Oswald", sans-serif;
   --font-heading: "Oswald", sans-serif;
   --color-brand: #E8412C;
   --color-dark: #0d0d0d;
@@ -17,5 +17,5 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
