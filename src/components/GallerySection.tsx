@@ -16,7 +16,7 @@ export default function GallerySection() {
     <section id="gallery">
       <div className="relative h-[420px] overflow-hidden">
         <img
-          src="https://placehold.co/1600x420/262626/262626"
+          src="public/assets/getintouch.png"
           className="absolute inset-0 w-full h-full object-cover"
           alt="Trainer coaching a client on the gym floor"
         />

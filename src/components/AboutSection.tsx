@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="relative flex justify-center order-1 lg:order-2">
             <span className="font-heading text-[160px] sm:text-[220px] leading-none font-bold text-brand/20 select-none">X</span>
             <img
-              src="https://placehold.co/380x460/e5e5e5/999999?text=Trainer"
+              src="public/assets/about.png"
               className="absolute inset-0 m-auto w-[240px] h-[320px] sm:w-[300px] sm:h-[420px] object-cover"
               alt="Female trainer holding a medicine ball"
             />

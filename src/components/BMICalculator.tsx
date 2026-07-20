@@ -23,7 +23,7 @@ export default function BMICalculator() {
     <section id="bmi" className="grid lg:grid-cols-2">
       <div className="relative h-80 lg:h-auto overflow-hidden bg-gray-700">
         <img
-          src="https://placehold.co/700x600/4b5563/4b5563"
+          src="public/assets/calculate.png"
           className="absolute inset-0 w-full h-full object-cover"
           alt="Woman wearing sports bra and armband"
         />

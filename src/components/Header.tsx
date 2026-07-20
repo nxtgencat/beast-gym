@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import type { Page } from '../types';
 
-const navLinks: { label: string; href: string; page?: Page }[] = [
+const navLinks: { label: string; href?: string; page?: Page }[] = [
   { label: 'About Us', href: '#about', page: 'home' },
   { label: 'Facilities', href: '#facilities' },
   { label: 'BMI', href: '#bmi' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Reviews', href: '#review' },
-  { label: 'Coaches', href: '#coaches', page: 'coach' },
+  { label: 'Coaches', page: 'coach' },
   { label: 'Blog', href: '#blog' },
   { label: 'Gallery', href: '#gallery' },
 ];

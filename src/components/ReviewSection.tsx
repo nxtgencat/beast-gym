@@ -8,7 +8,7 @@ export default function ReviewSection() {
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-14 items-center">
         <div className="relative max-w-md mx-auto lg:mx-0">
           <img
-            src="https://placehold.co/420x480/262626/262626"
+            src="public/assets/review.png"
             className="w-full h-[420px] object-cover"
             alt="Shirtless male athlete giving a testimonial"
           />

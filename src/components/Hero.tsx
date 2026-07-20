@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="relative pt-16 lg:pt-[72px]">
       <div className="relative h-[420px] sm:h-[480px] lg:h-[580px] bg-[#141414] overflow-hidden">
         <img
-          src="https://placehold.co/1600x580/171717/171717"
+          src="public/assets/hero.png"
           className="absolute inset-0 w-full h-full object-cover opacity-70"
           alt="Gym athlete training in dark gym background"
         />

@@ -3,7 +3,7 @@ export default function CoachProfile() {
     <section className="py-16 lg:py-20 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-12 items-start">
         <img
-          src="https://placehold.co/460x560/1a1a1a/1a1a1a"
+          src="public/assets/john.png"
           className="w-40 h-40 lg:w-full lg:h-[560px] object-cover mx-auto lg:mx-0 border-2 border-brand lg:border-0"
           alt="John Snow, body building coach"
         />
